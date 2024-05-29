@@ -1,4 +1,6 @@
 import './App.css';
+import './styles/fonts.css'
+
 import Home from './pages/Home';
 
 function App() {
