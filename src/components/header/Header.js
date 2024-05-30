@@ -3,9 +3,9 @@ import React from 'react'
 const Header = () => {
   return (
     <>
-        <div>
+        <div className='mt-2'>
             <div>
-                <p>Gourmet Guru</p>
+                <p className='text-3xl font-yourFont text-green-700'>Gourmet Guru</p>
             </div>
         </div>
     </>

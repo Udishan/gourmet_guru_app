@@ -12,7 +12,7 @@ const useAxios = (url) => {
       setLoading(true);
       try {
         const response = await axios.get(url);
-        console.log('Response:', response); // Log the entire response
+        console.log('Response:', response.data);
         setData(response.data);
       } catch (error) {
         setError(error);
