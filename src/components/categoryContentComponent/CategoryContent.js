@@ -22,7 +22,7 @@ const CategoryContent = () => {
                                 <CategoryCard
                                     categoryName={category.strCategory}
                                     categoryThumnailUrl={category.strCategoryThumb}
-                                    categoryDescription={category.strCategoryDescription}
+                                    // categoryDescription={category.strCategoryDescription}
                                 />
                             </div>
                         ))
