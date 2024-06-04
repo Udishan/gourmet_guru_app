@@ -18,8 +18,9 @@ const CategoryContent = () => {
                 <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols- lg:grid-cols-4 p-1">
                     {
                         data?.categories.map(category => (
-                            <div key={category.id}>
+                            <div key={category.idCategory}>
                                 <CategoryCard
+                                    categoryId={category.idCategory}
                                     categoryName={category.strCategory}
                                     categoryThumnailUrl={category.strCategoryThumb}
                                     // categoryDescription={category.strCategoryDescription}
