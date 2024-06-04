@@ -10,7 +10,7 @@ const CategoryCard = ({
 }) => {
     return (
         <div className='h-auto w-64 bg-green-100 border border-spacing-1 border-black'>
-            <Link to={`/category/${categoryId}`} >
+            <Link to={`/category/${categoryName}`} >
                 <div>
                     <img src={categoryThumnailUrl} alt="Description of image" className="max-h-full max-w-full object-contain" />
                 </div>

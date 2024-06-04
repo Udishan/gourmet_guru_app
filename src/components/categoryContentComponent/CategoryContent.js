@@ -6,7 +6,6 @@ const CategoryContent = () => {
     const { data, loading, error } = useAxios('https://www.themealdb.com/api/json/v1/1/categories.php');
     return (
         <>
-            {console.log("xxx", data?.categories)}
             <div className="container mx-auto p-4">
                 <div className="container mx-auto p-4">
                     <div className="flex items-center space-x-4">

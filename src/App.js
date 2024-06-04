@@ -9,8 +9,8 @@ function App() {
   return (
     <Router>
       <Routes>
+        <Route path = "/category/:categoryName" element={<ReceipeListofCategory/>} />
         <Route path = "/" element={<Home/>} />
-        <Route path = "/category/:categoryId" element={<ReceipeListofCategory/>} />
       </Routes>
     </Router>
   );
