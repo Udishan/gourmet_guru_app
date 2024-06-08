@@ -23,9 +23,9 @@ const ReceipeListofCategory = () => {
                     data?.meals.map(recipe => (
                         <div key={recipe.idMeal}>
                             <RecipeCard
+                                idMeal={recipe.idMeal}
                                 recipeImage={recipe.strMealThumb}
                                 recipeName={recipe.strMeal}
-                                // categoryDescription={category.strCategoryDescription}
                             />
                         </div>
                     ))

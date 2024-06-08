@@ -19,11 +19,6 @@ const CategoryCard = ({
                     <p className='text-left text-2xl mx-1'>{categoryName}</p>
                 </div>
             </Link>
-
-
-            {/* <div className='mt-8'>
-                <p className='text-xs mx-1 text-justify'>{categoryDescription}</p>
-            </div> */}
         </div >
     )
 }
